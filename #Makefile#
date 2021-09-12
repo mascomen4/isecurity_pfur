@@ -1,0 +1,9 @@
+FILTER = --filter pandoc-crossref
+%.docx: %.md
+	-pandoc "$<" $(FILTER) -o "$@"
+%.pdf: %.md
+	-pandoc "$<" $(LATEX_FORMAT) $(FILTER) -o "$@"
+all: $(FILES)
+	@echo $(FILES)
+clean:
+	-rm $(FILES) *~
