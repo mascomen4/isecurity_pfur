@@ -11,7 +11,7 @@ toc: false
 slide_level: 2
 theme: metropolis
 header-includes:
- -  \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
+ - \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
  - '\makeatletter'
  - '\beamer@ignorenonframefalse'
  - '\makeatother'
@@ -37,12 +37,13 @@ section-titles: true
 - Установить минимальный необходимый пакет ПО.
 - Создать еще одну машину Host2 на базе уже сконфигурированной виртуальной машины Base
 
-## Результаты выполнения лабораторной работы
+## Результаты выполнения лабораторной работы. Часть 1
+Установил виртуальную машину и установил имя $\textbf{iapodmogiljnihy}$
+![Название рисунка$\label{fig8}$](../images/8.png){ #fig:008 width=70% }
 
-- Установил виртуальную машину и установил имя $\textbf{iapodmogiljnihy}$
-![Название рисунка$\label{fig8}$](images/8.png){ #fig:008 width=70% }
-- Установил тип созданной машины Base на Multi-Attach и создал новую виртуальную машину под названием Host2, на основе машины Base.
-![Название рисунка$\label{fig13}$](images/13.png){ #fig:013 width=70% }
+## Часть 2
+Установил тип созданной машины Base на Multi-Attach и создал новую виртуальную машину под названием Host2, на основе машины Base.
+![Название рисунка$\label{fig13}$](../images/13.png){ #fig:013 width=70% }
 
 
 ## Выводы
